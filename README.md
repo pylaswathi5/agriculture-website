@@ -24,15 +24,17 @@ This is a simple website to showcase information about agriculture, including:
 - JavaScript
   
 ## 📁 Project Structure
-agriculture-website
-├── images
-│ ├── agriculture.jpg
-│ ├── intro.jpg
-│ └── (other images)
-├── index.html
-├── styles.css
-├── script.js
-└── README.md
+
+- **agriculture-website/**
+  - **images/**
+    - agriculture.jpg
+    - intro.jpg
+    - (other images)
+  - **index.html**
+  - **styles.css**
+  - **script.js**
+  - **README.md**
+
 
 ## 👤 Author
 
