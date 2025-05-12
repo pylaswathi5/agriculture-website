@@ -1,0 +1,153 @@
+/* Resetting margin, padding, and font styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Background Image Setup */
+body {
+    background-color: #ffffff;
+    background-image: url('images/agriculture.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Fixes the background */
+}
+
+/* Container Setup */
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+/* Header Styling */
+header {
+    background-color: rgba(0, 128, 0, 0.7); 
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Main Content Styling */
+.content {
+    display: flex;
+    padding: 20px;
+    margin-top: 100px;
+    flex: 1;
+}
+
+/* Navigation Styling */
+.nav {
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    margin-right: 20px;
+    position: sticky;
+    top: 120px;
+    height: fit-content;
+}
+
+.nav a {
+    display: block;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #2e8b57;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.nav a:hover {
+    background-color: #3c9c68;
+}
+
+/* Text Box Styling */
+.text-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+    display: none;
+}
+
+.text-box.active {
+    display: block;
+}
+
+.text-box h2 {
+    color: #2e8b57;
+}
+
+.text-box p {
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Login Box Styling */
+.login-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+/* Input Fields Styling */
+.login-box input[type="text"], 
+.login-box input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Submit Button Styling */
+.login-box input[type="submit"] {
+    background-color: #2e8b57;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-box input[type="submit"]:hover {
+    background-color: #3c9c68;
+}
+
+/* Media Query for Small Screens */
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .nav {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .text-box {
+        margin-bottom: 20px;
+    }
+
+    .login-box {
+        width: 80%;
+    }
+}
+
+.hidden {
+    display: none;
+}

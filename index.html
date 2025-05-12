@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agriculture Content</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="login-page" class="container">
+        <div class="login-box">
+            <h2>Login</h2>
+            <form id="login-form">
+                <input type="text" id="username" placeholder="Username" required>
+                <input type="password" id="password" placeholder="Password" required>
+                <input type="submit" value="Login">
+            </form>
+        </div>
+    </div>
+
+    <div id="content-page" class="container hidden">
+        <header>
+            <h1>Agriculture</h1>
+        </header>
+        <div class="content">
+            <div class="nav">
+                <a href="#introduction" onclick="showContent('introduction')">Introduction</a>
+                <a href="#problems" onclick="showContent('problems')">Problems</a>
+                <a href="#solutions" onclick="showContent('solutions')">Solutions</a>
+                <a href="#subsidies" onclick="showContent('subsidies')">Subsidies</a>
+                <a href="#conclusion" onclick="showContent('conclusion')">Conclusion</a>
+                <a href="#photos" onclick="showContent('photos')">Photos</a>
+            </div>
+            <div class="text-box" id="introduction">
+                <h2><u>Introduction</u></h2>
+                <p>The practice of cultivating the soil, producing crops, and keeping livestock is referred to as farming. Agriculture is critical to a country’s economic development.Nearly 58% of a country’s primary source of livelihood is farming.Most of the population in the rural areas is dependent on agriculture as their main source of income.Agriculture is the backbone of many economies, providing food, raw materials, and employment. </p>     
+                <p>The main objective of agriculture is to produce food for the people, though several things affect the agricultural sectors. The cultivation of plant and food grains began years ago in order to provide food to the city population. Agriculture is the main need for the people to live in the society. Agriculture is the main source of livelihood, it provides a source for the people to earn. The major agricultural products can be widely grouped into categories of food grains, fibers and raw materials.</p>       
+                <center>
+    <img src="images/intro.jpg" length="450px" width="385px">
+    <img src="images/intro1.jpg" length="450px" width="450px">
+</center>
+
+            </div>    
+            <div class="text-box" id="problems">
+                <h2><u>Problems</u></h2>
+                <ul style="list-style-type: square;">
+                    <li><b>Climate Change:</b>Climate change leads to irregular rainfall, droughts, and extreme weather conditions, impacting crop production.
+                    </li><br>
+                  <li><b>Water Scarcity:</b>Limited access to water resources hinders irrigation.</li><br>
+                   <li><b>Soil Degradation:</b>Overuse of chemical fertilizers and pesticides, and cultivating same crop leads to soil erosion and loss of fertility</li><br>
+                   <li><b>Pest and Disease:</b>Pests and diseases can devastate crops, leading to significant losses</li><br>
+                   <li><b>Market Volatility:</b>Farmers face income instability due to fluctuating market prices for their produce.
+                   </li><br>
+                    <li><b>Technological Gaps:</b>Limited access to modern agricultural technology restricts productivity</li><br>
+                    <li><b>Conventional Farming:</b>Over usage of synthetic chemical fertilizers, pesticides, herbicides are particularly dangerous in fruits and vegetables.</li><br>
+                     <li><b>Weeds in Farming:</b>Weeds compete with crops for sunlight, water, and nutrients, reducing crop yields.</li><br>
+                    </ul>
+        
+                </div>
+            <div class="text-box" id="solutions">
+                <h2>Climate Change</h2>
+                <dl>
+                    <dt><h3>Problem:</h3></dt>
+                    <dd>Climate change leads to irregular rainfall, droughts, and extreme weather conditions, impacting crop production.</dd>
+                    <dt><h3>Solution:</h3></dt>
+                    <dd>Adopt climate-smart agriculture practices, such as drought-resistant crops and improved irrigation techniques.</dd><br>
+                    <center><img src="images\1.jpg" length="550px" width="315px">
+                        <img src="images\2.jpg" length="550px" width="350px"></center> 
+                </dl>
+                <h2>Water Scarcity</h2>
+                <dl>
+                    <dt><h3>Problem:</h3></dt>
+                    <dd>Agricultural activities consume a significant portion of freshwater resources, leading to shortages.</dd>
+                    <dt><h3>Solution:</h3></dt>
+                    <dd>Implement efficient water management systems, like   drip irrigation, pipelines and rainwater harvesting.</dd><br>
+                    <center><img src="images\13.jpg" length="550px" width="300px">
+                        <img src="images\14.jpg" length="550px" width="340px"></center> 
+                </dl>    
+                <h2>Soil Degradation</h2>
+                <dl>
+                    <dt><h3>Problem:</h3></dt>
+                    <dd>Overuse of chemical fertilizers and pesticides, along with poor farming practices, and cultivating same crop leads to soil erosion and loss of fertility.</dd>
+                    <dt><h3>Solution:</h3></dt>
+                    <dd>Implementing rotational grazing and proper waste management systems for livestock can improve soil fertility and reduce environmental pollution.</dd><br>
+                    <center><img src="images\12.jpg" length="550px" width="320px"></center> 
+                </dl> 
+                <h2>Pest and Diseases</h2>
+                <dl>
+                    <dt><h3>Problem:</h3></dt>
+                    <dd>Pests and diseases can devastate crops, leading to significant losses.</dd>
+                    <dt><h3>Solution:</h3></dt>
+                    <dd>Use integrated pest management and genetically modified crops for better resistance.</dd><br>
+                    <center><img src="images\3.jpg" length="550px" width="320px">
+                        <img src="images\4.jpg" length="550px" width="290px"></center> 
+                </dl>   
+                <h2>Market Volatility</h2>
+                <dl>
+                    <dt><h3>Problem:</h3></dt>
+                    <dd>Farmers face income instability due to fluctuating market prices for their produce.</dd>
+                    <dt><h3>Solution:</h3></dt>
+                    <dd>Develop and implement policies that stabilize prices and provide financial support to farmers</dd><br>
+                    <center><img src="images\5.jpg" length="550px" width="250px"></center> 
+                </dl>  
+                <h2>Technological Gaps</h2>
+                <dl>
+                    <dt><h3>Problem:</h3></dt>
+                    <dd>Limited access to modern agricultural technology restricts productivity</dd>
+                    <dt><h3>Solution:</h3></dt>
+                    <dd>Facilitate access to advanced technology like drone technology, pipe line systems, solar system through subsidies and training programs. </dd><br>
+                    <center><img src="images\6.jpg" length="550px" width="250px"></center>  
+                </dl>     
+                <h2>Conventional Farming</h2>
+                <dl>
+                    <dt><h3>Problem:</h3></dt>
+                    <dd>Over usage of synthetic chemical fertilizers, pesticides, herbicides. These chemicals are particularly dangerous in fruits and vegetables by which people are exposed to them.</dd>
+                    <dt><h3>Solution:</h3></dt>
+                    <dd> Organic agriculture is a production system that regenerates the health of soils, ecosystems, and people. Organic farmers rely on natural processes rather than the use of synthetic inputs like chemical  fertilizers, pesticides, and herbicides.</dd><br>
+                    <center><img src="images\7.jpg" length="550px" width="350px">
+                        <img src="images\8.jpg" length="550px" width="350px"></center>       
+                </dl>   
+                <h2>Weeds in Farming</h2>
+                <dl>
+                    <dt><h3>Problem:</h3></dt>
+                    <dd>Weeds are unwanted plants that grow among crops. They compete with crops for sunlight, water, nutrients, and space, which can lead to lower crop yields and poorer crop quality.</dd>
+                    <dt><h3>Solution:</h3></dt>
+                    <dd> Deep ploughing is a farming technique where the soil is turned over to a deeper level than usual (more than 20-30 cm). This helps control weeds by burying their seeds and disrupting their growth.</dl>
+                        <center><img src="images\9.jpg" length="550px" width="300px">
+                            <img src="images\11.jpg" length="550px" width="330px"></center>       
+            </div>
+            <div class="text-box" id="conclusion">
+                    <h2><u>Conclusion</u></h2>
+                    <ol>
+                        <li>Providing best technologies and machineries to the farmers may leads to quality and quantity crop production in farming.</li><br>
+                        <li>If the government could be able to provide subsidies and pesticides etc for farming activities will be a great support for farmers to cultivate better.</li><br>
+                        <li>Conducting awareness programs for farmers and Agricultural labours about best agricultural practices and useful and trending technologies would be a great help.</li><br>
+                        <li>Agricultural labours and farmers deaths can be decreased only by providing minimum crop production cost or by fixing basic crop value accordingly will retain their investments, which will be very helpful for them also hopeful to cultivate further.</li><br>
+                    </ol>    
+                        <p>The thing which our team has notices that Agriculture is becoming the last option for everyone is just because of lack of awareness, facilities and Disrespect towards the profession...But, we have to remember that " we are being alive because of the food, which is being provided by the farmers...Otherwise we are nothing...So, please respect <b>Farmers</b> and <b>Farming</b>."</p>            
+                </div>
+            <div class="text-box" id="photos">
+                <h2><u>Photos</u></h2>
+                <div><center><img src="images\a.jpg" length="550px" width="330px">
+                    <img src="images\b.jpg" length="550px" width="330px">
+                    <img src="images\c.jpg" length="550px" width="335px">
+                    <img src="images\d.jpg" length="550px" width="330px">
+                    <img src="images\f.jpg" length="550px" width="330px">
+                    <img src="images\g.jpg" length="550px" width="330px"></center> 
+                </div>
+            
+            </div>
+            <div class="text-box" id="subsidies">
+                <h2><u>subsidies and schemes</u></h2>
+                <div><p><b>The Pradhan Mantri Kisan Samman Nidhi Yojana (PM-Kisan Yojana)</b> is a government scheme through which, all small and marginal farmers will get up to Rs 6,000 per year as minimum income support.</p> <a href="https://pmkisan.gov.in/"target="_blank">PM Kisan Samman Nidhi</a>
+                </div>
+                <div><p><b>The Soil Health Card (SHC) scheme</b> is a government of India program that provides farmers with a printed report on the health of their soil. The SHC includes information on the soil's nutrient status, as well as recommendations for fertilizers and soil amendments. </p> <a href="https://www.soilhealth.dac.gov.in/home"target="_blank">Soil Health Card</a>
+                </div>
+                <div><p><b>The Sub Mission on Seed and Planting Material (SMSP)</b> seeks to ensure the production and multiplication of high yielding, certified/quality seeds of all crops so that farmers may get enough seeds at a reasonable cost and in a timely manner.</p> <a href="https://www.myscheme.gov.in/schemes/ky-smsp"target="_blank">Sub Mission on Seed and Planting Material</a>
+                </div>
+                <div><p><b>The Sub-Mission on Agricultural Mechanization (SMAM)</b> is a program by the Ministry of Agriculture & Farmers Welfare, Government of India that aims to increase the use of farm machinery by small and marginal farmers.</p> <a href="https://www.myscheme.gov.in/schemes/smam"target="_blank">Sub-Mission on Agricultural Mechanization</a>
+                </div>
+                <div><p><b>The Pradhan Mantri Krishi Sinchayee Yojana (PMKSY)</b> is to improve water use efficiency in agriculture, promotes the use of precision irrigation and other water-saving technologies, such as drip and sprinkler irrigation. The government provides financial assistance to farmers for installing micro irrigation systems. The assistance is 55% for small and marginal farmers, and 45% for other farmers. </p> <a href="https://pmksy.gov.in/"target="_blank">Pradhan Mantri Krishi Sinchayee Yojana</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
